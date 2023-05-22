@@ -81,7 +81,7 @@ class BookController extends Controller
     public function update(Request $request, Book $book)
     {
         $request->validate([
-            'kode' => 'required|unique:books',
+            'kode' => 'required',
             'judul' => 'required',
             'tahun_terbit' => 'required',
             'penulis' => 'required',

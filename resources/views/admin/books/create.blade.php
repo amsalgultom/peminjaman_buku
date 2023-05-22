@@ -63,7 +63,7 @@
             <div class="col-xs-12 col-sm-12 col-md-6">
                 <div class="form-group">
                     <strong>Stok:</strong>
-                    <input type="number" name="stok" class="form-control" required placeholder="Isi Stok Buku">
+                    <input type="number" name="stok" min="0" class="form-control" required placeholder="Isi Stok Buku">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">

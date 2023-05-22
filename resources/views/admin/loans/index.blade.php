@@ -7,8 +7,7 @@
 <div class="container-fluid">
 
     <!-- Page Heading -->
-    <h1 class="h3 mb-2 text-gray-800">Table Request Peminjaman</h1>
-
+    <h1 class="h3 mb-2 text-gray-800">Table Pengajuan Peminjaman</h1>
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
         <div class="card-body">
@@ -39,7 +38,9 @@
                 </table>
             </div>
         </div>
-    </div>
+    </div>  
+    
+    <p>nb :Pengajuan peminjaman buku oleh anggota</p>
 
 </div>
 <!-- /.container-fluid -->

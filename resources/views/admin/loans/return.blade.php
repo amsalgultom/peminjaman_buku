@@ -7,7 +7,7 @@
 <div class="container-fluid">
 
     <!-- Page Heading -->
-    <h1 class="h3 mb-2 text-gray-800">Table return Peminjaman</h1>
+    <h1 class="h3 mb-2 text-gray-800">Table List Peminjaman</h1>
 
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
@@ -40,6 +40,7 @@
             </div>
         </div>
     </div>
+    <p>nb : Pengembalian buku oleh anggota, Admin yang mengubah status menjadi return</p>
 
 </div>
 <!-- /.container-fluid -->

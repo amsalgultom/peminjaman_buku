@@ -83,6 +83,13 @@ class LoanController extends Controller
             'status' => 'required'
         ]);
 
+        $book = Book::where('id', $request->book_id)->first();
+        if($book){
+            $stok = $book->stok;
+            if($stok < 1){
+                return redirect()->route('loans.index')->with('failed', 'Loan Failed, Book Stock not available.');
+            }
+        }
         Loan::create($request->all());
 
         return redirect()->route('loans.index')->with('success', 'Loan Book created successfully.');
